@@ -8,22 +8,10 @@
     tools:context="com.example.asta.rpmc.MainActivity">
 
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="RPMC"
-        android:id="@+id/pav"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentStart="false" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_below="@+id/pav"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp" />
+        android:id="@+id/imageView"
+        android:background="@pictures/logo.png"
+        />
 </RelativeLayout>

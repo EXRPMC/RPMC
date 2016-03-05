@@ -95,22 +95,21 @@
         android:id="@+id/imageView"
         android:background="@mipmap/logo"
         android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageButton7"
         android:layout_alignRight="@+id/imageButton9"
         android:layout_alignEnd="@+id/imageButton9"
         android:layout_alignLeft="@+id/imageButton7"
-        android:layout_alignStart="@+id/imageButton7"
-        android:layout_below="@+id/imageButton7" />
+        android:layout_alignStart="@+id/imageButton7" />
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
+        android:layout_width="850dp"
+        android:layout_height="70dp"
         android:clickable="false"
         android:background="#df6a00"
-        android:layout_above="@+id/imageButton2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"
         android:touchscreenBlocksFocus="false"
-        android:layout_alignParentStart="false"></FrameLayout>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></FrameLayout>
 
 </RelativeLayout>

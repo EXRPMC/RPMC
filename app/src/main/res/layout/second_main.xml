@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.asta.rpmc.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="850dp"
+        android:layout_height="70dp"
+        android:clickable="false"
+        android:background="#df6a00"
+        android:touchscreenBlocksFocus="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout">
+
+    </FrameLayout>
+
+    <EditText
+        android:layout_width="358dp"
+        android:layout_height="480dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
